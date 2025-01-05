@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>My first html program</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            h1{
+    color:green;
+}
+p{
+    color: red;
+}
+.one{
+    height:400px;
+    background-color:#FFFF00;
+}
+}
+.para{
+    color: blue;
+}
+.web{
+    color:#FFEFD5;
+}
+button{
+    color: pink;
+}
+ </style>
+    </head>
+    <body>
+        <div class="one">
+        <h1>Hypertext markup language</h1>
+        <p>Used to create webpages</p>
+        <p="para">cascading style sheet</p>
+        <p="web">used to style the html document </p>
+        <button>Click here</button>
+        </div>
+    </body>
+</html>

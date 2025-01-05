@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>My first html program</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            h1{
+    color:green;
+}
+p{
+    color: red;
+}
+.one{
+    height:400px;
+    background-color:pink ;
+}
+ </style>
+    </head>
+    <body>
+        <div class="one">
+        <h1>Hypertext markup language</h1>
+        <p>Used to create webpages</p>
+        <button>Click here</button>
+        </div>
+    </body>
+</html>ok 

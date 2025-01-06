@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>html tags</title>
+        <style>
+            p{
+                color:blue;
+            }
+            mark{
+                color:red;
+            }
+            ul{
+                color:green;
+            }
+            .container{
+                background-color: pink;
+                height:300px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <h1>Html tags</h1>
+        <p><b>Some tags are given below</b></p>
+        <a href="https://www.w3schools.com/tags/">
+        <button>click here</button>
+        </a><br><br>
+        <del>subject</del>
+        <i>Italian</i><br>
+        <mark>Defines marked</mark>
+       <select><menu>The menu </menu>
+        <ol>Picture</ol></select>
+        <ul>Progress</ul>
+        <li>Ruby</li><wbr>
+        <search>This</search>
+        </div>
+    </body>
+</html>

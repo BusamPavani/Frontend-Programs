@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Html list</title>
+</head>
+<body>
+  <ul>
+<li>One</li>
+ <li>Two</li>
+<li>Three</li>
+</ul>
+  <ol type="I">
+ <li>one</li>
+ <li>Two</li >
+  <li>Three</li>     
+<script src="script.js"></script>
+</body>
+</html>

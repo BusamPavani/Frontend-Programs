@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Html list</title>
+    <style>
+        caption {
+            color: blue;
+        }
+        tr{
+            color: green;
+        }
+        td{
+            color: orange;
+        }
+        table,th,td{
+          
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        th,td{
+            background-color: skyblue;
+        }
+</style>
+        </head>
+  <body>
+    <table>
+        <caption><b>Marks list</b></caption>
+      <tr>
+        <th>s.no</th>
+        <th>Name</th>
+        <th>marks</th>
+      </tr>
+      <tr>
+        <td>01</td>
+        <td>Pavani.B</td>
+        <td>14</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>Ganesh B</td>
+        <td>15</td>
+      </tr>
+      </table>
+      <script src="script.js"></script>
+      </body>
+      </html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Html forms</title>
+  <style>
+  label{
+      color:Blue;
+    
+  }
+  h1{
+      color: red;
+  }
+ input{
+     color: brown;
+    background-color:pink;
+ }
+ . container{
+     border: black;
+     background-color: green;
+ }
+  </style>
+</head>
+
+<body>
+    <div class="container">
+  
+  <h1>
+    Registration form
+  </h1>
+  <p>
+  Fill the form to register 
+  </p>
+  <form>
+    <label for="name" >Name:</label>
+      <input type="text" id="name" name="name">
+        <br>
+          <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+              <br>
+              <label for="Gender">Gender:</label>
+                <br>
+              <input type="radio" id="Male" name="Gender" value="Male">
+                <label for="male">Male</label>
+
+<br>
+              <input type="radio" id="Male" name="Gender" value="female">
+
+<label for="female">female</label>
+<br>
+
+
+
+<input type="radio" id="Male" name="Gender" value="Male">
+
+                <label for="others">others</label>
+  <br>
+<label for="name" >Set Username:</label>
+
+      <input type="text" id="Set username" name="Set Username">
+   <br>    
+   <br>
+               <label for="name" >Password:</label>
+
+      <input type="text" id="Password" name="name" >
+      <br>
+      <br>
+        <input type="Submit" value="submit">
+      </form>
+      </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

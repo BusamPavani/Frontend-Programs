@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> inline external and outline css</title>
+    
+        <style>
+            h1{
+                color:red;
+                text-align: center;
+            }
+            .container{
+                text-align: center;
+                font-family: Sans-Serif;
+            }
+            button{
+                color: white;
+                border-radius: 3px;
+                padding: 1px;
+                background-color: purple;
+                
+            }
+        </style>
+       
+    </head>
+    <body>
+        <div class="container">
+        <h1>Inline cascading style sheet</h1>
+        <p style="color:green">Directly within the html elements</p>
+        <button>Click here</button>
+        </div>
+    </body>
+</html>

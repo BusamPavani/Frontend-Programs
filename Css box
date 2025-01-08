@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>css box</title>
+      <link rel="stylesheet" href="style.css">
+      <style>
+          .box{
+    text-align: center;
+    border-width:1px;
+    border-color:brown;
+    border-style:solid;
+    border-radius: 20px;
+    border-style: ridged;
+}
+h1{
+    color:red;
+}
+h2{
+    color:purple;
+    font-family: Sans-Serif;
+}
+      </style>
+    </head>
+    <body>
+        <div class="box">
+        <h1>Hypertext markup language </h1>
+        <h2>Cascading style sheet</h2>
+        </div>
+    </body>
+</html>

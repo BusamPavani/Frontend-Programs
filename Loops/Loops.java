@@ -316,3 +316,46 @@ Output:
 Enter gender(M/F):
 F
 Female*/
+
+
+/*int n,rev=0,i,digit;
+Scanner s=new Scanner(System.in);
+System.out.println("Enter the value of n:");
+n=s.nextInt();
+i=n;
+while(n>0){
+digit=n%10;
+rev=(rev*10)+digit;
+n=n/10;
+}
+if(i==rev){
+System.out.println(i+ "is a palindrome");
+}
+else{
+System.out.println(i+ "is not a palindrome");
+}
+}
+}
+Output:
+Enter the value of n:
+323
+323is a palindrome*/
+
+/*int a=10;
+int b=20;
+int c=30;
+int largest;
+if(a>=b&&a>=c){
+largest=a;
+}
+else if(b>=a && b>=c){
+largest=b;
+}
+else{
+largest=c;
+}
+System.out.println("The largest number is:"+largest);
+}
+}
+Output:
+The largest number is:30*/
